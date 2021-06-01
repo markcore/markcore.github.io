@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>CSCI 544: Calendar</title>
+</head>
+<body>
+<table border="1">
+<tr><td><b>Date</b></td><td><b>Speaker</b></td><td><b>Topic</b></td></tr>
+<tr><td>Aug. 24 (M)</td><td>Core</td><td>Introduction and basic concepts</td></tr>
+
+<tr><td>Aug. 26 (W)</td><td>Georgila</td><td>Text classification (Naive Bayes)</td></tr>
+
+<tr><td>Aug. 31 (M)</td><td>Core</td><td>Part of speech tagging</td></tr>
+<tr><td>Sep. 2 (W) </td><td>Core</td><td>Parsing (Part 1)</td></tr>
+
+<tr><td>Sep. 7 (M) </td><td></td><td>HOLIDAY</td></tr>
+<tr><td>Sep. 9 (W) </td><td>Georgila</td><td>Speech synthesis</td></tr>
+
+<tr><td>Sep. 14 (M)</td><td>Core</td><td>Parsing (Part 2)</td></tr>
+<tr><td>Sep. 16 (W)</td><td>Georgila</td><td>Maximum entropy modeling</td</tr>
+
+<tr><td>Sep. 21 (M)</td><td>Georgila</td><td>Language modeling</td></tr>
+<tr><td>Sep. 23 (W)</td><td>Core</td><td>Semantics (Part 1)</td></tr>
+
+<tr><td>Sep. 28 (M)</td><td>Georgila</td><td>Speech disfluencies</td></tr>
+<tr><td>Sep. 30 (W)</td><td>Core</td><td>Semantics (Part 2)</td></tr>
+
+<tr><td>Oct. 5 (M)</td><td>Core</td><td>Dialogue</td></tr>
+<tr><td>Oct. 7 (W)</td><td>Georgila</td><td>Dialogue management (Part 1)</td></tr>
+
+<tr><td>Oct. 12 (M)</td><td>Core</td><td>Discourse (Part 1)</td></tr>
+<tr><td>Oct. 14 (W)</td><td>Georgila</td><td>Dialogue management (Part 2)</td></tr>
+
+<tr><td>Oct. 19 (M)</td><td>Core</td><td>Discourse (Part 2)</td></tr>
+<tr><td>Oct. 21 (W)</td><td>Georgila</td><td>Natural language generation</td></tr>
+
+<tr><td>Oct. 26 (M)</td><td>Georgila</td><td>Perceptron</td></tr>
+<tr><td>Oct. 28 (W)</td><td>Artstein (guest lecture)</td><td>Annotation and evaluation</td></tr>
+
+<tr><td>Nov. 2 (M)</td><td>Georgila</td><td>Speech recognition</td></tr>
+<tr><td>Nov. 4 (W)</td><td>Core</td><td>Educational applications of NLP</td></tr>
+
+<tr><td>Nov. 9 (M)</td><td>Wienberg (guest lecture)</td><td>Information retrieval</td></tr>
+<tr><td>Nov. 11 (W)</td><td>Garten (guest lecture)</td><td>Distributed representations</td></tr>
+
+<tr><td>Nov. 16 (M)</td><td>Core</td><td>Information extraction</td></tr>
+<tr><td>Nov. 18 (W)</td><td>Georgila</td><td>Machine translation</td></tr>
+
+<tr><td>Nov. 23 (M)</td><td></td><td></td></tr>
+<tr><td>Nov. 25 (W)</td><td></td><td>HOLIDAY</td></tr>
+
+<tr><td>Nov. 30 (M)</td><td></td><td>group presentations</td></tr>
+<tr><td>Dec. 2 (W)</td><td></td><td>group presentations</td></tr>
+</table>
+</body>
+</html>
+
+
+
+
+
+

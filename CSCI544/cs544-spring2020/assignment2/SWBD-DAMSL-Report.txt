@@ -1,0 +1,17 @@
+Assignment 2 Report
+
+Name:
+
+1. Describe how you evaluated your baseline and advanced features:
+
+Replace this text with a description of how you used the labeled data
+to train and evaluate different models (e.g., moving ~25% data into a
+separate development directory).
+
+2. Accuracy of baseline features during your evaluation:
+
+3. Describe your advanced feature set:
+
+4. If you tried and rejected alternate advanced feature sets, please describe them:
+
+5. Accuracy of advanced features was:

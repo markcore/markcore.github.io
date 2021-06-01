@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>CSCI 544 Applied Natural Language Processing</title>
+</head>
+<body>
+<h1>CSCI 544 Applied Natural Language Processing</h1>
+<h3>Fall 2015</h3>
+
+<p>
+<b>Instructors</b>
+</p>
+<p>
+Our on-campus office hours are either in PHE 514 or PHE 516. In addition to the listed office hour, office hours are also by appointment.
+</p>
+<ul>
+<li>Mark Core: core [AT] ict.usc.edu (office hour: Wed 2:30-3:30)</li>
+<li>Kallirroi Georgila: kgeorgila [AT] ict.usc.edu (office hour: Mon 2:30-3:30)</li>
+</ul>
+
+<p>
+<b>TAs</b> 
+</p>
+<p>
+Currently, you should go to the SAL computer lab to find the TAs during their office hours.
+</p>
+<ul>
+<li>Chris Wienberg: cwienber [AT] usc.edu (office hours: Mon 2-4)</li>
+<li>Ali Jalal-Kamali: jalalkam [AT] usc.edu (office hours: Wed 2-4)</li>
+</ul>
+
+<p>
+<b>Lectures</b>
+<ul>
+<li><a href="calendar.html">Calendar with holidays and past and future lecture topics</a></li>
+<li>Section 30089D meets Mon/Wed 4-5:50PM at WPH B28.</li>
+<li>Section 30090D meets Mon/Wed 6-7:50PM at GFS 106.</li>
+</ul>
+</p>
+
+<p>
+<b>Resources</b>
+<ul>
+<li><a href="https://piazza.com">Piazza</a>: discussion (first place to go to ask questions) and announcements.</li>
+<li><a href="http://blackboard.usc.edu">Blackboard</a>: lecture slides.</li>
+</ul>
+</p>
+
+<p>
+<b>Course summary:</b>
+</p>
+<p>
+This course covers both fundamental and cutting-edge topics in Natural Language Processing (NLP) and provides students with hands-on experience in NLP applications. This is part of USC's <a href="http://cl.usc.edu/courses.html">curriculum in computational linguistics</a>.
+The course
+will roughly follow the previous semester's course taught by Kenji
+Sagae
+(see <a href="http://appliednlp.bitbucket.org/">http://appliednlp.bitbucket.org</a>). There will be some differences in topics covered and assignments/projects. Like the previous course, there will be no exams. The grade for the class will be based only on assignments and a project. There will be no final exam and the class will finish December 4th at midnight (i.e., the last project/assignment will be due at that time or earlier).
+
+</p>
+
+<p>
+<b>Grading:</b>
+
+<ul>
+<li>Programming assignments (4 x 15%): the grades will depend on the performance of a system and a technical report.</li>
+
+<li>Research project (40%): this will be a group project, graded individually: 30% of the grade will depend on the project's relevance to the course, degree of difficulty, amount of work, correctness and written report. 10% of the grade will depend on a written report about projects from other groups.</li>
+</ul>
+</p>
+
+<p>
+<b>Software for the course</b>
+</p>
+<p>
+To complete the assignments you will need the following tools.
+<ul>
+<li><a href="virtualbox-setup.html">Specific Ubuntu Linux setup.</a> This is the same environment we will use for grading.</li>
+<li>Python 3</li>
+<ul>
+<li><a href="https://docs.python.org/3/">All the documentation</a></li>
+<li><a href="https://docs.python.org/3/library/sys.html">Documentation on reading command line arguments</a></li>
+<li><a href="https://docs.python.org/3/tutorial/inputoutput.html">Tutorial with tips for working with files</a></li>
+</ul>
+<li><a href="bitbucket-help/bitbucket.html">Bitbucket</a></li>
+<li><a href="git.html">Git</a></li>
+</ul>
+</p>
+
+<p>
+<b>Assignments and project</b>
+</p>
+<p>
+<ul>
+<li><a href="assignment1.html">Assignment 1: Due Sept. 7</a></li>
+<li><a href="assignment2.html">Assignment 2: Due Sept. 30</a></li>
+<li><a href="assignment3.html">Assignment 3: Due Oct.  28</a></li>
+<li><a>Assignment 4: Due Nov.  23 (this assignment is on Blackboard under Content)</a></li>
+<li><a href="project-proposal.html">Proposal for Group Project: Due Nov. 19</a></li>
+<li><a href="presentations.html">Guidelines regarding group presentations: slides due Nov. 29</a></li>
+<li><a href="finalproject.html">Final Project: Due Dec. 4</a></li>
+</ul>
+</p>
+
+<p>
+<b>CSCI 590 section 30181 (Directed Research)</b>
+</p>
+
+<p>
+The course registration page states you must also enroll in CSCI 590 section 30181. This is to ensure you receive 4 units for the course. Although 590 is Directed Research, you will receive credit automatically for it, if you earn a passing grade for the course. You should receive more information directly from the department about the process.
+</p>
+
+<b>
+<a href="http://www.usc.edu/schools/GraduateSchool/academic_conduct.html">Statement on Academic Conduct and Support Systems</a></b>
+
+</body>
+</html>

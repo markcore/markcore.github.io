@@ -1,0 +1,116 @@
+<html><head>
+<title>CSCI 544: Git basics</title>
+</head>
+<body>
+        
+<h1>CSCI 544: Git basics</h1>
+
+<h3> What is Git? </h3>
+
+<p> <a href="http://git-scm.com/">Git</a> is a modern <a href="http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">version control system</a>.
+ Amongst other benefits, it allows you to save snapshots of your project
+ allowing you view (and revert to, if necessary) previous versions of 
+your work. This is especially critical when working in a team as you'll 
+often need to unwind conflicting changes or figure out precisely 
+when/what changes were made. Version control is an absolutely essential 
+part of any software project and a little bit of time spent learning the
+ basics will pay off many times over.</p>
+
+<hr>
+
+<h3> Installing Git</h3>
+<p>From the command line, just type:<br>
+<code>
+$ sudo apt-get install git<br>
+</code>
+
+</p><hr>
+
+<h3> Setting up a repository </h3>
+
+<p>For this class, we'll be using <a href="https://bitbucket.org/">Bitbucket</a> for handling remote storage of repositories (another popular service is <a href="https://github.com/">GitHub</a>).
+ Although you don't need to have a remote repository (Git will work just
+ fine locally), having a remote repository both gives you a remote 
+backup (nice if something happens to your entire machine) and makes 
+sharing easy if you ever need it (as you will for all assignments for 
+this class).
+
+</p><p>Getting started is easy. First, <a href="bitbucket-help/bitbucket.html">create a new repository on Bitbucket</a>.</p> 
+
+<p>Then, from the command line type:<br><br>
+<code>
+$ mkdir /path/to/your/new/project<br>
+$ cd /path/to/your/new/project<br>
+$ git init<br>
+$ git remote add origin https://YOUR_USERNAME@bitbucket.org/YOUR_USERNAME/REPOSITORY_NAME.git<br>
+</code>
+
+</p><p>In the above examples replace YOUR_USERNAME with your Bitbucket 
+username and REPOSITORY_NAME with the name of the repository you just 
+created on Bitbucket (Bitbucket will also prompt you with these commands
+ after creating a new repo).</p>
+
+<hr>
+
+<h3> Checking in a new file </h3>
+
+<p>After creating a repository and linking it to Bitbucket, you'll want 
+to get to work. Let's say you've started a new file called "test.py" 
+and, after getting a few lines in, want to save your work. From the 
+command line in your project directory, just type:<br>
+<code>
+$ git add test.py<br>
+$ git commit -m "adding test.py (or whatever message describes your work)"<br>
+$ git push origin master<br>
+</code>
+
+</p><p>Let's look at each of those commands.</p>
+
+<p><code>git add test.py</code><br> tells git that this is a file you 
+want under version control (often there will be plenty of files, for 
+example temp files or compiled files that you wouldn't want in version 
+control).</p>
+
+<p><code>git commit -m "some message"</code><br> is what actually 
+commits (stores) your changes locally. Every commit is required to have a
+ commit message. The -m flag allows you to directly enter that message 
+on the command line (in quotes). Although it may seem like a waste, 
+descriptive commit messages can be extremely useful when trying to 
+remember what you did (and even more so when working in a team and 
+trying to figure out what someone else did!).</p>
+
+<p><code>git push origin master</code><br> is what actually pushes the 
+changes up to your remote repository. It's very easy to forget this 
+final step (especially if you're used to some other version control 
+systems), so make sure to get in the habit of always pushing your 
+changes after a commit.</p>
+
+<hr>
+
+<h3> Updating your code </h3>
+
+<p>If you are working in a team or just working on multiple computers 
+and want to pull down the latest version of your work, there are two 
+commands you need to know.</p>
+
+<p>If you are pulling down an existing repository for the first time, use the <code>clone</code> command. For example:<br>
+<code>
+$ git clone https://YOUR_USER@bitbucket.org/YOUR_USER/REPO_NAME.git<br>
+</code>
+
+</p><p>If you already have a copy of the repository and just want to pull down the latest changes, just use the <code>pull</code> command. For example (from your project directory):<br>
+<code>
+$ git pull<br>
+</code>
+
+</p><p>During a pull, if there are parts of the code that need to be 
+merged (for example, if two people have modified the same file), git 
+will prompt you to resolve any conflicts. This is far superior to just 
+overwriting each other's work!</p>
+
+
+
+
+
+
+</body></html>

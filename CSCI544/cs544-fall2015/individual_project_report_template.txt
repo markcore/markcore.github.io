@@ -1,0 +1,145 @@
+Individual Report on Project (GROUP NUMBER): PROJECT TITLE
+Name: SAMPLE NAME
+email address: SAMPLE@EMAIL.COM
+Rest of my group: NAMES OF OTHER MEMBERS OF MY GROUP
+Name of the Bitbucket repository for your group's project: INSERT NAME HERE
+
+Instructions
+
+In the above header, replace ALL CAPS entries with your
+information. You can find your group number in the presentation
+schedule or in the copy of your proposal that we sent you. Fill in the
+sections below. If you need to cite a reference, please use APA style
+or similar (https://owl.english.purdue.edu/owl/resource/560/03/). For
+the references section, please follow a standard style such as APA
+(https://owl.english.purdue.edu/owl/resource/560/06/).
+
+This report should be written by you individually (NOT shared among
+the group members). The section Project Resources should list any
+software or data that you downloaded and used in your
+assignment. Below are two samples (one for data and one for
+software). Please delete them and replace with your own. In general,
+this report should be written individually. The one exception is that
+you may compile a single list of Project Resources to share.
+
+1. Project Overview
+
+
+
+2. My Project Tasks
+
+
+
+3. Project Resources
+
+* Our training and test data were drawn from item 72 of the NLTK data
+repository (http://www.nltk.org/nltk_data/) which is a 10% sample of
+the Penn Treebank.
+
+* We used a chart parser from NLTK (http://www.nltk.org/install.html).
+
+4. References 
+
+
+
+5. Review 1 
+
+The group number was:
+
+What was the goal of the group's project?
+
+How did the group attempt to accomplish the goal?
+
+How did the group evaluate their work and what was the result?
+
+6. Review 2
+
+The group number was:
+
+What was the goal of the group's project?
+
+How did the group attempt to accomplish the goal?
+
+How did the group evaluate their work and what was the result?
+
+7. Review 3
+
+The group number was:
+
+What was the goal of the group's project?
+
+How did the group attempt to accomplish the goal?
+
+How did the group evaluate their work and what was the result?
+
+8. Review 4
+
+The group number was:
+
+What was the goal of the group's project?
+
+How did the group attempt to accomplish the goal?
+
+How did the group evaluate their work and what was the result?
+
+9. Review 5
+
+The group number was:
+
+What was the goal of the group's project?
+
+How did the group attempt to accomplish the goal?
+
+How did the group evaluate their work and what was the result?
+
+10. Review 6
+
+The group number was:
+
+What was the goal of the group's project?
+
+How did the group attempt to accomplish the goal?
+
+How did the group evaluate their work and what was the result?
+
+11. Review 7
+
+The group number was:
+
+What was the goal of the group's project?
+
+How did the group attempt to accomplish the goal?
+
+How did the group evaluate their work and what was the result?
+
+12. Review 8
+
+The group number was:
+
+What was the goal of the group's project?
+
+How did the group attempt to accomplish the goal?
+
+How did the group evaluate their work and what was the result?
+
+13. Review 9
+
+The group number was:
+
+What was the goal of the group's project?
+
+How did the group attempt to accomplish the goal?
+
+How did the group evaluate their work and what was the result?
+
+14. Review 10
+
+The group number was:
+
+What was the goal of the group's project?
+
+How did the group attempt to accomplish the goal?
+
+How did the group evaluate their work and what was the result?
+
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>USC CSCI 544: VirtualBox</title>
+    <meta name="description" content="USC CSCI 544 VirtualBox">
+</head>
+
+
+<body>
+<h1>CSCI 544: VirtualBox</h1>
+
+<h3>Setting up Ubuntu with VirtualBox</h3>
+
+<p>Below is an install guide for setting up VirtualBox with Ubuntu
+14.04.3 on your system. If you have problems, more detailed
+instruction and troubleshooting tips can be found on the <a
+href="https://help.ubuntu.com/community/VirtualBox">Ubuntu site</a>.</p>
+
+<ol>
+  <li>Download the version of <a
+  href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a> for
+  your machine (under “VirtualBox platform packages”, choose the host
+  package that corresponds to your operating system (i.e. if you’re installing on Mac, choose the package “VirtualBox 5.0.2 for OS X hosts”)).</li>
+  <li>Download <a href="http://www.ubuntu.com/download/desktop">Ubuntu Linux 14.04.3 LTS</a>.</li>
+  <li>Follow the steps on your system to install VirtualBox.</li>
+  <li>Open the VirtualBox application.</li>
+  <li>Select “New” from the application ribbon, choose a name for your
+  system, and select Linux/Ubuntu (64 bit).
+  <br /><img src="virtualbox/install1.png" /></li>
+  <li>Select the amount of memory for your virtual machine (If you
+  have 4GB of RAM or more, generally set this to 2048MB or half your
+  system RAM, whichever is greater).
+  <br /><img src="virtualbox/install2.png" /></li>
+  <li>Select the “Create a virtual hard drive now” option:
+  <ul>
+<li>Select the “VDI (VirtualBox Disk Image)” option</li>
+<li>Select “Dynamically allocated”</li>
+<li>Select the starting drive size (I recommend 16GB)</li>
+</ul>
+<br /><img src="virtualbox/install3.png" />
+<br /><img src="virtualbox/install3b.png" width="772" />
+</li>
+  <li>With your new instance selected, select start from the
+application ribbon.
+ <br /><img src="virtualbox/install4.png" width="772" /></li>
+  <li>When prompted, select the previously downloaded Ubuntu iso file
+as the virtual optical disk file.
+ <br /><img src="virtualbox/install5.png" width="772" /></li>
+<li>Follow the prompts to install Ubuntu.</li>
+<li>Adding Guest Additions (extensions to help Ubuntu run better when
+virtualized). See <a
+href="http://www.binarytides.com/vbox-guest-additions-ubuntu-14-04/">this
+site</a> for more complete instructions.
+<ol>
+  <li>After restarting your system, open a terminal and run "sudo
+apt-get install build-essential module-assistant linux-headers-generic".</li>
+  <li>From the menu, select Devices &gt; Insert Guest Additions CD
+Image.
+<br /><img src="virtualbox/install6.png" /></li>
+<li>Select "Run" when prompted and enter your password.</li>
+  </ol>
+  </li>
+<li>After restarting one more time, open the terminal and run "sudo
+apt-get install git" to install git on your new system.</li>
+</ol>
+
+</body>
+
+</html>

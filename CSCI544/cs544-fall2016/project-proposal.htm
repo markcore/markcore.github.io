@@ -1,0 +1,201 @@
+<html>
+<head>
+<title>CSCI 544 Applied NLP: Proposing a Group Project</title>
+</head>
+<body>
+<h1>CSCI 544 Applied NLP: Proposing a Group Project</h1>
+<h2>Due Date: October 14 by 11:59pm, early submissions welcomed!</h2>
+
+<p>
+For your group project, you will need to form a group of three to four
+students, and pick an NLP-related task for your project. Your group needs to start by submitting a proposal by filling out the form here (only ONCE per group):
+</p>
+
+<p>
+<a href="https://usc.qualtrics.com/SE/?SID=SV_eCFDu8lgsCTdqMB"><h2>Online proposal submission.</h2></a>
+</p>
+
+<p>
+The form asks you to describe:
+</p>
+<ul>
+<li>the proposed NLP task</li>
+<li>the data you will use</li>
+<li>any annotation that is part of the project</li>
+<li>how you plan to tackle the problem</li>
+<li>how you plan to evaluate your final product</li>
+</ul>
+
+<p>
+You will need to list each group member and what tasks they will
+perform. Each project member will write an individual report on the
+project, and receive an individual grade. In addition, the group is
+required to give an in-class presentation. Currently, we have
+allocated the last three lectures for the presentations, but may need
+to include additional lectures depending on the number of groups. After
+you submit your project proposal, your group will receive an email
+from either Mark or Kallirroi. The email will either approve the
+proposal, or give comments and ask for revisions.
+</p>
+
+<p>
+<b>Question: Can I form a group with students from the other
+section?</b></br>  Answer: Yes, assuming the entire group can attend
+either the 4pm or 6pm lecture during the day their group is
+presenting.
+</p>
+
+
+
+<h2>Help in picking a topic</h2> 
+
+<h3>Domain adaptation</h3>
+
+<p>
+Domain adaptation is a topic that can be explored in a variety of NLP
+tasks.  For many of these tasks, there are large corpora and software
+tools trained on these corpora. However, performance of the tools may
+drop when used in domains different from the training corpus. The idea
+of domain adaptation is to annotate a small amount of training data in
+the new domain and create a model based on both the large
+out-of-domain corpus and the small in-domain corpus. This can be
+applied to NLP tasks such as part of speech tagging, named entity
+recognition and parsing.
+</p>
+<ul>
+<li>D. McClosky, E. Charniak and M. Johnson. (2010). <a href="http://nlp.stanford.edu/pubs/dmcc-naacl-2010.pdf">Automatic domain adaptation for parsing.</a> NAACL.</li>
+<li>H. Daume III. (2007). <a href="http://www.umiacs.umd.edu/~hal/docs/daume07easyadapt.pdf">Frustratingly easy domain adaptation.</a> ACL.</li>
+</ul>
+
+
+<h3>Speech recognition / speech synthesis topics</h3>
+
+<ul>
+<li>Build a limited-domain speech recognizer. You may use out-of-the-box acoustic models, or adapt out-of-the-box acoustic models to a particular speaker. In the latter case you will have a speaker-dependent speech recognizer. You can build domain-specific language models using one of the language modeling toolkits mentioned below.</li>
+<li>Build a grapheme to phoneme converter. The input will be a word and the output a sequence of phonemes. You may train and test your model using a pronunciation dictionary, e.g., <a href="http://www.speech.cs.cmu.edu/cgi-bin/cmudict">the CMU pronouncing dictionary.</a></li>
+<li>Speech recognition error simulation.</li>
+</ul>
+
+<h3>NLU topics</h3>
+
+<ul>
+<li><a href="http://aclweb.org/aclwiki/index.php?title=Multiword_Expressions">Recognition of multiword expressions</a> such as compound nouns, proper names, and idioms.</li>
+<li>Word sense disambiguation.</li>
+<li>Unsupervised learning of lexical semantics.</li>
+<li>Learn a probabilistic context-free grammar from a corpus.</li>
+<li>Build a limited-domain NLU system using a parser.</li>
+<li>Semantic role labeling.</li>
+<li>Automatically grade student answers.</li>
+<li>Detection of grammatical errors, e.g., wrong prepositions.</li>
+</ul>
+
+<h3>Discourse topics</h3>
+
+<ul>
+<li>Coreference resolution.</li>
+<li>Information extraction.</li>
+<li>Discourse segmentation.</li>
+<li>Discourse parsing.</li>
+<li>Build a simple natural language generation system.</li>
+<li>Build a simple summarization system.</li>
+</ul>
+
+<h3>Dialogue topics</h3>
+
+<ul>
+<li>Build a limited-domain goal-oriented dialogue system.</li>
+<li>Build a simple chat-oriented dialogue system.</li>
+<li>Develop dialogue management strategies using reinforcement learning.</li>
+</ul>
+
+<h2>Help in finding data</h2>
+
+<ul>
+<li><a href="http://trec.nist.gov/data.html">Text Retrieval Conference<a/></li>
+<li><a href="http://www.nltk.org/nltk_data/">NLTK data</a>: a large repository of many kinds of data.</li>
+<li><a href="http://www-nlpir.nist.gov/related_projects/muc/muc_data/muc_data_index.html">Message Understanding Conferences 3 and 4</a> (information extraction, named entity recognition, coreference resolution).</li>
+<li><a href="https://framenet.icsi.berkeley.edu/fndrupal/">FrameNet</a> (Semantic Role information).</li>
+<li><a href="https://verbs.colorado.edu/propbank/">PropBank / AMR info.</a></li>
+<li><a href="http://www.clips.uantwerpen.be/conll2000/">Computational Natural Language Learning conference shared tasks:</a></li>
+<ul>
+<li>1999 and 2000: chunking;</li>
+<li>2001: clause identification (good for discourse parsing);</li>
+<li>2002 and 2003: named entity recognition;</li>
+<li>2004 and 2005: semantic role labeling;</li>
+<li>2008: syntactic and semantic dependencies.</li>
+</ul>
+<li>SemEval shared tasks:</li>
+<ul>
+<li><a href="http://aclweb.org/aclwiki/index.php?title=SemEval_3">2012-2015;</a></li>
+<li><a href="http://alt.qcri.org/semeval2016/">2016.</a></li>
+</ul>
+<li>Summarization</li>
+<ul>
+<li><a href="http://duc.nist.gov/data.html">DUC workshop data</a></li>
+<li><a href="http://www-nlpir.nist.gov/related_projects/tipster_summac/cmp_lg.html">XML versions of ACL papers with abstracts</a></li>
+<li><a href="http://kavita-ganesan.com/opinosis-opinion-dataset">Abstractive summarization of Amazon reviews</a></li>
+<li><a href="http://rgcl.wlv.ac.uk/projects/CAST/corpus/">Corpus from the CAST project</a></li>
+</ul>
+<li>Researchers who share lots of resources (e.g., summarization)</li>
+<ul>
+<li><a href="https://web.eecs.umich.edu/~mihalcea/downloads.html">Rada Mihalcea</a></li>
+<li><a href="http://homepages.inf.ed.ac.uk/mlap/index.php?page=resources">Mirella Lapata</a></li>
+</ul>
+<li>Dialogue State Tracking Challenges:</li>
+<ul>
+<li><a href="http://research.microsoft.com/en-us/events/dstc/">Dialogue State Tracking Challenge;</a></li>
+<li><a href="http://camdial.org/~mh521/dstc/">Dialogue State Tracking Challenge 2 & 3;</a></li>
+<li><a href="http://www.colips.org/workshop/dstc4/">Dialogue State Tracking Challenge 4.</a></li>
+</ul>
+<li>Automated grading:</li>
+<ul>
+<li><a href="https://www.kaggle.com/c/asap-sas">Kaggle short answer grading competition</a></li>
+<li><a href="https://www.kaggle.com/c/asap-aes/data">Kaggle "150-550 word answer" grading competition</a></li>
+<li><a href="https://web.eecs.umich.edu/~mihalcea/downloads.html#saga">Rada Mihalcea's data</a></li>
+<li><a href="https://www.cs.york.ac.uk/semeval-2013/task7.html">Data from SemEval 2013 grading task</a></li>
+<li><a href="http://www.comp.nus.edu.sg/~nlp/conll13st.html">Grammatical Error Correction task 2013</a></li>
+<li><a href="http://www.comp.nus.edu.sg/~nlp/conll14st.html">Grammatical Error Correction task 2014</a></li>
+<li><a href="http://textmining.lt/aesw/index.html">Evaluation of Scientific Writing task 2016 </a></li>
+</ul>
+
+</ul>
+
+<h2>Useful tools and resources for speech recognition</h2>
+
+<ul>
+<li><a href="http://cmusphinx.sourceforge.net/wiki/download">CMU Sphinx and PocketSphinx.</a></li>
+<li><a href="http://htk.eng.cam.ac.uk/">HTK Speech Recognition Toolkit.</a></li>
+<li><a href="http://julius.osdn.jp/en_index.php">Open-Source Large Vocabulary Continuous Speech Recognition Engine Julius.</a></li>
+<li><a href="http://kaldi.sourceforge.net/about.html">Kaldi.</a></li>
+<li><a href="http://www.keithv.com/software/">Trained acoustic models.</a></li>
+</ul>
+
+<h2>Useful tools and resources for language modeling</h2>
+
+<ul>
+<li><a href="http://www.speech.cs.cmu.edu/SLM/toolkit.html">CMU-Cambridge Statistical Language Modeling Toolkit.</a></li>
+<li><a href="http://www.speech.sri.com/projects/srilm/">SRI Language Modeling Toolkit.</a></li>
+<li><a href="https://code.google.com/p/mitlm/">MIT Language Modeling Toolkit.</a></li>
+<li><a href="http://www.openfst.org/twiki/bin/view/Contrib/GrmLibrary">GRM Library.</a></li>
+<li><a href="http://www.keithv.com/software/">Trained language models.</a></li>
+</ul>
+
+<h2>Useful tools and resources for speech synthesis</h2>
+
+<ul>
+<li><a href="http://www.cstr.ed.ac.uk/projects/festival/">Festival Speech Synthesis System.</a></li>
+<li><a href="http://festvox.org/flite/">CMU Flite (festival-lite).</a></li>
+<li><a href="http://festvox.org/cmu_arctic/">CMU_ARCTIC speech synthesis databases.</a></li>
+<li><a href="http://hts.sp.nitech.ac.jp/">HMM-based Speech Synthesis System (HTS).</a></li>
+<li><a href="http://mary.dfki.de/">MARY Text-to-Speech System (MaryTTS).</a></li>
+</ul>
+
+<h2>Useful tools for building dialogue systems</h2>
+
+<ul>
+<li><a href="https://vhtoolkit.ict.usc.edu/">Virtual Human Toolkit.</a></li>
+<li><a href="http://www.opendial-toolkit.net/">OpenDial.</a></li>
+</ul>
+
+</body>
+</html>
