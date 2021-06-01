@@ -1,0 +1,13 @@
+
+
+body	{
+		color: #000000;
+		background-color: #eedd82;
+		max-width: 800px;
+	}
+a:active	{ color: #880066; }
+a:link		{ color: #880066; }
+a:visited	{ color: #000000; }
+
+
+
