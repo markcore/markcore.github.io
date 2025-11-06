@@ -5,9 +5,6 @@ body	{
 		background-color: #eedd82;
 		max-width: 600px;
 	}
-div     {
-	        max-width: 400px;
-	}
 a:active	{ color: #880066; }
 a:link		{ color: #880066; }
 a:visited	{ color: #000000; }
