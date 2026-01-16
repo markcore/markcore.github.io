@@ -2,8 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css"
-      href="https://ict.usc.edu/~core/settings.css"/>
-<link rel="SHORTCUT ICON" href="https://ict.usc.edu/~core/favicon.ico"/>
+      href="settings-new.css"/>
 <title>Mark's Research</title>
 </head>
 <BODY>
@@ -12,39 +11,55 @@
 <div id="sidebarnav">
 <a href="index.html">Home</a>
 <a class="active" href="research.html">Research</a>
-<a href="publications2.html">Publications</a>
-<a href="CSCI544.html">Applied Natural Language Processing: Course Materials</a>
+<a href="papers2.html">Publications</a>
+<a href="CSCI544.html">USC Teaching</a>
 </div>
 </div>
 
 <div id="contentarea" style="width:600px;">
 <h1>Mark's Research</h1>
 
+<h2>Ph.D. thesis on dialog parsing</h2>
 <p>
-As a Ph.D. student at the University of Rochester, I focused on <b>dialogue parsing</b>, <b>natural language understanding</b> in the context of spoken dialogue. NOTE, I use the spelling "dialogue" here for consistency although you'll see "dialog parsing" in the papers. I extended traditional syntactic analysis to encompass overlapping speech and <b>speech repairs</b>, disruptions to spoken utterances such as self-corrections and filled pauses (e.g., um, uh). Another aspect of dialogue parsing is recognition of the intended actions (i.e., <b>dialogue acts</b>) associated with an utterance. I worked with the Discourse Resource Initiative in an effort to unify dialogue annotation schemes from different groups to facilitate collaborative efforts to build large, annotated corpora. James Allen and I wrote up the final annotation scheme, DAMSL (Dialog Act Markup in Several Layers), which has been used as a starting point for a number of dialogue annotation efforts. Although not the focus of my thesis, I also explored using dialogue act co-occurences as a tool for <b>discourse analysis</b> of the problem-solving dialogues in my test corpus.  
+As a Ph.D. student at the University of Rochester, I focused on dialog parsing, natural language understanding in the context of spoken dialogue. I extended traditional syntactic analysis to encompass overlapping speech and speech repairs, disruptions to spoken utterances such as self-corrections and filled pauses (e.g., um, uh). Another aspect of dialogue parsing is recognition of the intended actions (i.e., dialogue acts) associated with an utterance. I worked with the Discourse Resource Initiative in an effort to unify dialogue annotation schemes from different groups to facilitate collaborative efforts to build large, annotated corpora. James Allen and I wrote up the final annotation scheme, DAMSL (Dialog Act Markup in Several Layers), which has been used as a starting point for a number of dialogue annotation efforts. Although not the focus of my thesis, I also explored using dialogue act co-occurences as a tool for discourse analysis of the problem-solving dialogues in my test corpus.  
 </p>
 
+<h2>Tutorial dialogue systems</h2>
 <p>
-As a research fellow at the University of Edinburgh, I shifted my focus from dialogue systems acting as conversational assistants to dialogue systems acting as <b>intelligent tutoring systems</b>. In addition to working on natural language understanding, I annotated human tutoring dialogues to inform design of our system through discourse analysis. In particular, I investigated management of <b>initiative</b> (i.e., control of the dialogue) exploring who had initiative (student or tutor) and when.
+As a research fellow at the University of Edinburgh, I shifted my focus from dialogue systems acting as conversational assistants to dialogue systems acting as intelligent tutoring systems. In addition to working on natural language understanding, I annotated human tutoring dialogues to inform design of our system through discourse analysis. In particular, I investigated management of initiative (i.e., control of the dialogue) exploring who had initiative (student or tutor) and when.
 </p>
 
-<p>
-As a research scientist at USC's Institute for Creative Technologies, one of my research areas is the use of dialogue systems as <b>virtual role players</b> allowing learners to practice interpersonal skills through <b>menu-based</b> or <b>open-response</b> interaction. The ability of such role players to explain their behavior (<b>explainable artificial intelligence</b>) is crucial to allowing the intelligent tutoring system to diagnose learner mistakes in scenarios that may include randomness and pre-scripted challenges. One challenge in developing explainable artificial intelligence is that background knowledge is often implicit in the utterances of the virtual role players. This is especially true for tutoring cultural awareness and we built a prototype <b>computational model of culture</b> to make the cultural motives of virtual role players explicit. <b>experience manipulation</b> is another area in which the tutor and virtual role player work together to promote learning. In this case, the tutor influences the responses of the virtual role player (e.g., making the scenario easier or harder; generating indirect feedback). In addition to virtual role players, I have worked with other types of simulations (e.g. flight and battlefield simulators) and explored <b>immersive technologies</b> ranging from mixed-reality experiences, 3D animations with audio and VR headset-based interfaces.
-</p>
+<h2>Virtual role players</h2>
 
 <p>
-Another of my research areas is <b>lifelong learning</b>, technologies such as artificial learning companions that are designed to support long-term learning across a variety of domains. One aspect of lifelong learning is promoting <b>learner engagement</b> which requires tracking learner emotions through multi-modal analysis (e.g., <b>facial affect</b>), traditional <b>learning analytics</b> and machine learning techniques such as <b>semi-supervised learning</b>. To support lifelong learning, I have also explored <b>authoring tools</b> that automatically create and check required meta-data as well as allowing teachers and domain experts to create new automated tutoring lessons through familiar tasks such as writing questions and rubrics, and providing hints. We currently use large language models (LLMs) to automatically assess the correctness of learner responses and an area of active research is better leveraging their capabilities (e.g., cogeneration in which the LLM creates draft questions, hints, multiple-choice options and feedback from readings and videos).
+As a research scientist at USC's Institute for Creative Technologies, one of my research areas is the use of dialogue systems as virtual role players allowing learners to practice interpersonal skills. Related research areas:
+<ul>
+<li>Explainable artificial intelligence: ability of AI to explain its decisions and behavior.</li>
+<li>Computational models of culture: using models of culture to influence and explain decision-making of virtual role players.</li>
+<li>Experience manipulation: use of an intelligent tutoring system to influence virtual role player (e.g., adjusting difficulty, generating indirect feedback).</li>
+</ul>
 </p>
 
-Notable fielded systems
+<h2>Lifelong learning and promoting learner engagement</h2>
+
+<ul>
+<li>Learning analytics.</li>
+<li>Immersive technologies (e.g., mixed-reality, 3D animated characters, VR headset-based interfaces).</li>
+<li>Multi-modal analysis of learners (e.g., recognition of facial affect).</li>
+<li>Learning analytics.</li> 
+<li>Automated classification of engagement (e.g., through semi-supervised learning).</li>
+<li>Leveraging large language models to generate learning resources (e.g., questions, multiple-choice options, feedback).</li>
+</ul>
+
+<h2>Notable fielded systems</h2>
 <ul>
 <li><b>BiLAT</b> (partner: U.S. Army's Games for Training program) is a training system that allows learners to participate in menu-based bilateral negotiation role-plays set in the context of common Iraqi cultures.</li>
-<li><a href="standardpatient.net">Standard Patient Studio</a> (partner: USC Keck School of Medicine) is a training system that allows medical students to practice taking a medical history through open-response role-plays. It also includes an authoring tool allowing doctors to create new scenarios for their students.</li>
-<li><a href="https://ict.usc.edu/research/projects/inots-counseling/">INOTS</a> (partner: U.S. Navy) and <a href="https://ict.usc.edu/research/projects/elite-emergent-leader-immersive-training-environment/">ELITE</a> (partner: U.S. Army), allowed officiers-in-training to practice addressing the personal and performance problems of virtual subordinates in menu-based role-plays. INOTS was used at Officer Development School Newport in a mixed-reality environment. One trainee would interact with the virtual roleplayer in a simulated office while the rest of the class voted on the best option to take at each decision point. Later versions of INOTS and ELITE allow trainees to practice these roleplays on their own with intelligent tutoring system support.</li> 
+<li><b>Standard Patient Studio</b> (partner: USC Keck School of Medicine) is a training system that allows medical students to practice taking a medical history through open-response role-plays. It also includes an authoring tool allowing doctors to create new scenarios for their students. <a href="standardpatient.net">Try it out</a>.</li>
+<li><b>INOTS</b> (partner: U.S. Navy, <a href="https://ict.usc.edu/research/projects/inots-counseling/">read more</a>) and <b>ELITE</b> (partner: U.S. Army, <a href="https://ict.usc.edu/research/projects/elite-emergent-leader-immersive-training-environment/">read more</a>), allowed officiers-in-training to practice addressing the personal and performance problems of virtual subordinates in menu-based role-plays.</li> 
 <li><b>MILES</b> (partner: USC's Center for Innovation and Research on Veterans and Military Families) and <b>MIND</b> (partner: VA Puget Sound and University of Washington) allowed students to practice their motivational interviewing skills with a virtual veteran in menu-based role-plays.</li>
-<li><b>DIVIS</b> (partner: U.S Army's SHARP Academy) is the Digital Interactive Victim Intake System. Starting with <a href="https://ict.usc.edu/research/projects/elite-emergent-leader-immersive-training-environment/">ELITE</a> scenarios addressing different aspects of U.S. Army's SHARP (Sexual Harassment/Assault Response and Prevention) Program, we began a long-term collaboration with the Army's SHARP Academy leading to DIVIS which supports open-response virtual roleplaying.</li> 
-<li><a href="https://opentutor.info/home/">OpenTutor</a> is an open-source dialogue-based tutoring system initially developed with funding from the U.S. Army and now used in a variety of projects.</li>
-<li><a href="https://ict.usc.edu/research/projects/personal-assistant-for-life-long-learning-pal3/">PAL3</a>, the Personal Assistant for Life Long Learning, is a learning companion accessible through a mobile phone app or web browser which was initially developed with funding from the Office of Naval Research and now used in a variety of projects. To meet learner goals, PAL3 recommends lessons from a growing library of readings, videos and interactive resources in subjects such as electronics, leadership, suicide prevention and artificial intelligence.</li>
+<li><b>DIVIS</b> (partner: U.S Army's SHARP Academy) is the Digital Interactive Victim Intake System. Starting with ELITE scenarios addressing different aspects of U.S. Army's SHARP (Sexual Harassment/Assault Response and Prevention) Program, we began a long-term collaboration with the Army's SHARP Academy leading to DIVIS which supports open-response virtual roleplaying.</li> 
+<li><b>OpenTutor</b> is an open-source dialogue-based tutoring system initially developed with funding from the U.S. Army and now used in a variety of projects.<a href="https://opentutor.info/home/">Try it out.</a></li>
+<li><b>PAL3</b>, the Personal Assistant for Life Long Learning, is a learning companion accessible through a mobile phone app or web browser which was initially developed with funding from the Office of Naval Research and now used in a variety of projects. To meet learner goals, PAL3 recommends lessons from a growing library of readings, videos and interactive resources in subjects such as electronics, leadership, suicide prevention and artificial intelligence.<a href="https://ict.usc.edu/research/projects/personal-assistant-for-life-long-learning-pal3/">Read more.</a></li>
 </ul>
 <p>
 Copyright Mark G. Core. All rights reserved.
