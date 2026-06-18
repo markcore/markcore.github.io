@@ -46,9 +46,15 @@ As a research scientist at USC's Institute for Creative Technologies, one of my 
 A key aspect of lifelong learning is tracking learner engagement to support tutoring strategies
 that not only encourage cognitive growth but also promote positive attitudes toward the subject material
 and learning in general. I have explored a number of related research areas including learning analytics,
-multi-modal analysis of learners (e.g., recognition of facial affect), and automated classification of
-engagement (e.g., through semi-supervised learning). Another challenge in lifelong learning is the authoring
-bottleneck. Although large-language-model-based chat bots have the potential to provide interactive learning activities on demand, it is crucial to ensure that such activities actually promote learning. 
+multi-modal analysis of learners (e.g., recognition of facial affect), automated classification of
+engagement (e.g., through semi-supervised learning), and authoring dialogue-based tutoring lessons (e.g., our open-source tool,
+<a href="https://opentutor.info/home/">OpenTutor,</a> which allows the creation of lessons without any knowledge of programming or AI).
+</p>
+
+<h2>Educational uses of large language models</h2>
+
+<p>
+A critical component of OpenTutor is automated grading of student input and we have an ongoing research effort to improve our use of Large Language Models (LLMs) for this task. One finding is that performance depends on domain with finetuning helping performance on interpersonal skills domains such as suicide prevention. More recently we have been working on LLM metacognition, specifically exploring whether LLMs can identify domains in which finetuned models outperform standard models. Currently, in OpenTutor, human authors must specify questions, hints and correct answers for each lesson resulting in a content development bottleneck. To address this issue, we are exploring cogeneration approaches in which LLMs generate candidate questions, hints and correct answers from a target text.
 </p>
 
 <h2>Notable fielded systems</h2>
